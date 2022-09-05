@@ -4,45 +4,44 @@ import java.sql.*;
 import java.util.ArrayList;
 
 class Jhsql {
-    int update(String dbID, String dbPW, String sql) throws ClassNotFoundException, SQLException {
-        // 1. DBMS 라이브러리 등록하기.
+    int update(String dbID, String dbPW, String sql) throws ClassNotFoundException {
         Class.forName("oracle.jdbc.driver.OracleDriver");
-
-        // 2. DBMS 접속하기.
         String dbURL = "jdbc:oracle:thin:@localhost:1521:xe";
-        Connection con = DriverManager.getConnection(dbURL, dbID, dbPW);
+        try(
+                Connection con = DriverManager.getConnection(dbURL, dbID, dbPW);
+                ) {
+            Statement statement = con.createStatement();
+            int result = statement.executeUpdate(sql);
 
-        // 3. Query 전달 인스턴스 생성
-        Statement statement = con.createStatement();
-        // sql 전송
-        int result = statement.executeUpdate(sql);
+            con.commit();
 
-        // 5. 마무리 작업 commit & close
-        con.commit();
-        con.close();
-
-        return result;
+            return result;
+        } catch (Exception e){
+            return 0;
+        }
     }
 
-    ArrayList<String> query(String dbID, String dbPW, String sql) throws SQLException, ClassNotFoundException {
+    ArrayList<String> query(String dbID, String dbPW, String sql) throws ClassNotFoundException {
         Class.forName("oracle.jdbc.driver.OracleDriver");
-
         String dbURL = "jdbc:oracle:thin:@localhost:1521:xe";
-        Connection con = DriverManager.getConnection(dbURL, dbID, dbPW);
+        ArrayList<String> outStr = new ArrayList<>();
+        try(
+                Connection con = DriverManager.getConnection(dbURL, dbID, dbPW);
+                ) {
+            Statement statement = con.createStatement();
+            ResultSet result = statement.executeQuery(sql);
 
-        ArrayList<String> outStr =  new ArrayList<>();
+            while (result.next()) {
+                int pid = result.getInt("pid");
+                String pname = result.getString("pname");
+                int pprice = result.getInt("pprice");
+                String iced = result.getString("iced");
 
-        Statement statement = con.createStatement();
-        ResultSet result = statement.executeQuery(sql);
-
-        while(result.next()) {
-            int pid = result.getInt("pid");
-            String pname = result.getString("pname");
-            int pprice = result.getInt("pprice");
-            String iced = result.getString("iced");
-            outStr.add(pid + " : " + pname + " : " + pprice + " : " + iced);
+                outStr.add(pid + " : " + pname + " : " + pprice + "\t: " + iced);
+            }
+            return outStr;
+        }catch (Exception e){
+            return null;
         }
-        con.close();
-        return outStr;
     }
 }

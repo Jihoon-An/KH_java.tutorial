@@ -16,8 +16,8 @@ public class Input {
     }
 
     public static int _integer_(int min, int max) {
-        int input_num = _integer_();
         while (true) {
+            int input_num = _integer_();
             if (min <= input_num && input_num <= max) {
                 return input_num;
             } else {
@@ -39,8 +39,8 @@ public class Input {
     }
 
     public static double _double_(double min, double max) {
-        double input_num = _double_();
         while (true) {
+            double input_num = _double_();
             if (min <= input_num && input_num <= max) {
                 return input_num;
             } else {
@@ -51,7 +51,7 @@ public class Input {
 
     public static String _string_() {
         Scanner scanner = new Scanner(System.in);
-        System.out.print(">>>");
+        System.out.print(">>> ");
         return scanner.nextLine();
     }
 
