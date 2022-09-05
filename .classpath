@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry excluding="week_03/day_10_0817/" kind="src" path="src"/>
+	<classpathentry kind="src" path="src/week_03/day_10_0817"/>
+	<classpathentry kind="lib" path=".idea/libraries/ojdbc5.jar"/>
+	<classpathentry kind="lib" path=".idea/libraries/ojdbc6_g.jar"/>
+	<classpathentry kind="lib" path=".idea/libraries/ojdbc6.jar"/>
+	<classpathentry kind="output" path="out/production/java_project"/>
+</classpath>
