@@ -1,0 +1,63 @@
+<component name="libraryTable">
+  <library name="async-http-client-2.12.3">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/.idea/libraries/selenium-java-4.5.0/lib/async-http-client-2.12.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.idea/libraries/selenium-java-4.5.0/lib/async-http-client-netty-utils-2.12.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.idea/libraries/selenium-java-4.5.0/lib/auto-common-1.2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.idea/libraries/selenium-java-4.5.0/lib/auto-service-1.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.idea/libraries/selenium-java-4.5.0/lib/auto-service-annotations-1.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.idea/libraries/selenium-java-4.5.0/lib/byte-buddy-1.12.14.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.idea/libraries/selenium-java-4.5.0/lib/checker-qual-3.12.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.idea/libraries/selenium-java-4.5.0/lib/commons-exec-1.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.idea/libraries/selenium-java-4.5.0/lib/error_prone_annotations-2.11.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.idea/libraries/selenium-java-4.5.0/lib/failsafe-3.2.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.idea/libraries/selenium-java-4.5.0/lib/failureaccess-1.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.idea/libraries/selenium-java-4.5.0/lib/guava-31.1-jre.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.idea/libraries/selenium-java-4.5.0/lib/j2objc-annotations-1.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.idea/libraries/selenium-java-4.5.0/lib/jakarta.activation-1.2.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.idea/libraries/selenium-java-4.5.0/lib/jcommander-1.82.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.idea/libraries/selenium-java-4.5.0/lib/jsr305-3.0.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.idea/libraries/selenium-java-4.5.0/lib/jtoml-2.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.idea/libraries/selenium-java-4.5.0/lib/netty-buffer-4.1.79.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.idea/libraries/selenium-java-4.5.0/lib/netty-codec-4.1.79.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.idea/libraries/selenium-java-4.5.0/lib/netty-codec-http-4.1.79.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.idea/libraries/selenium-java-4.5.0/lib/netty-codec-socks-4.1.79.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.idea/libraries/selenium-java-4.5.0/lib/netty-common-4.1.79.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.idea/libraries/selenium-java-4.5.0/lib/netty-handler-4.1.79.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.idea/libraries/selenium-java-4.5.0/lib/netty-handler-proxy-4.1.79.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.idea/libraries/selenium-java-4.5.0/lib/netty-reactive-streams-2.0.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.idea/libraries/selenium-java-4.5.0/lib/netty-resolver-4.1.79.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.idea/libraries/selenium-java-4.5.0/lib/netty-transport-4.1.79.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.idea/libraries/selenium-java-4.5.0/lib/netty-transport-classes-epoll-4.1.79.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.idea/libraries/selenium-java-4.5.0/lib/netty-transport-classes-kqueue-4.1.79.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.idea/libraries/selenium-java-4.5.0/lib/netty-transport-native-unix-common-4.1.79.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.idea/libraries/selenium-java-4.5.0/lib/opentelemetry-api-1.17.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.idea/libraries/selenium-java-4.5.0/lib/opentelemetry-context-1.17.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.idea/libraries/selenium-java-4.5.0/lib/opentelemetry-exporter-common-1.17.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.idea/libraries/selenium-java-4.5.0/lib/opentelemetry-exporter-logging-1.17.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.idea/libraries/selenium-java-4.5.0/lib/opentelemetry-sdk-1.17.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.idea/libraries/selenium-java-4.5.0/lib/opentelemetry-sdk-common-1.17.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.idea/libraries/selenium-java-4.5.0/lib/opentelemetry-sdk-extension-autoconfigure-1.17.0-alpha.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.idea/libraries/selenium-java-4.5.0/lib/opentelemetry-sdk-extension-autoconfigure-spi-1.17.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.idea/libraries/selenium-java-4.5.0/lib/opentelemetry-sdk-logs-1.17.0-alpha.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.idea/libraries/selenium-java-4.5.0/lib/opentelemetry-sdk-metrics-1.17.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.idea/libraries/selenium-java-4.5.0/lib/opentelemetry-sdk-trace-1.17.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.idea/libraries/selenium-java-4.5.0/lib/opentelemetry-semconv-1.17.0-alpha.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.idea/libraries/selenium-java-4.5.0/lib/reactive-streams-1.0.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.idea/libraries/selenium-java-4.5.0/lib/slf4j-api-1.7.36.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.idea/libraries/selenium-java-4.5.0/selenium-api-4.5.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.idea/libraries/selenium-java-4.5.0/selenium-chrome-driver-4.5.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.idea/libraries/selenium-java-4.5.0/selenium-chromium-driver-4.5.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.idea/libraries/selenium-java-4.5.0/selenium-devtools-v85-4.5.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.idea/libraries/selenium-java-4.5.0/selenium-devtools-v106-4.5.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.idea/libraries/selenium-java-4.5.0/selenium-http-4.5.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.idea/libraries/selenium-java-4.5.0/selenium-ie-driver-4.5.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.idea/libraries/selenium-java-4.5.0/selenium-java-4.5.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.idea/libraries/selenium-java-4.5.0/selenium-json-4.5.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.idea/libraries/selenium-java-4.5.0/selenium-remote-driver-4.5.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.idea/libraries/selenium-java-4.5.0/selenium-support-4.5.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

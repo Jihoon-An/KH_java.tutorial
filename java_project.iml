@@ -9,5 +9,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="KotlinJavaRuntime" level="project" />
     <orderEntry type="library" name="ojdbc5" level="project" />
+    <orderEntry type="library" name="async-http-client-2.12.3" level="project" />
   </component>
 </module>
