@@ -2,7 +2,6 @@ package selenium;
 
 import java.time.Duration;
 
-import myCustom.Account;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
